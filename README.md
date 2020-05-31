@@ -3,4 +3,4 @@ Une fonction pour WordPress qui ajoute un menu avec les pages d'options de Divi 
 
 ![preview of adminbar](https://raw.githubusercontent.com/PierreBichet/divi-menu-in-adminbar/master/divi-links-adminbar.png)
 
-Téléchargez le fichier php et copiez-collez son contenu dans le fichier ``functions.php`` de votre thème enfant.
+Téléchargez le fichier php et copiez-collez son contenu dans le fichier ``functions.php`` de votre thème enfant (sauf la balise ``<?php`` du début).
