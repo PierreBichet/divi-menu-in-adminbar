@@ -1,6 +1,6 @@
 # Divi menu in adminbar
-A WP mu-plugin to add a menu with the Divi options pages in the adminbar
+Un mu-plugin pour WordPress qui ajoute un menu avec les pages d'options de Divi dans l'adminbar.
 
 ![preview of adminbar](https://raw.githubusercontent.com/PierreBichet/divi-menu-in-adminbar/master/divi-links-adminbar.png)
 
-Just download and place the php file in ``/wp-content/mu-plugins`` (create the folder if it doesn't exist)
+Téléchargez et placez le fichier php dans ``/wp-content/mu-plugins`` (créez le dossier s'il n'existe pas)
