@@ -1,3 +1,5 @@
+<?php /* <= ne copiez pas cette balise */
+
 /* Ajouter liens Divi dans l'adminbar */
 
 function dc_add_divi_items_in_adminbar($admin_bar){
