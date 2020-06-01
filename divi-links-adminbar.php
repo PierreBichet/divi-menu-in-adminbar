@@ -1,6 +1,6 @@
 <?php /* <= ne copiez pas cette balise */
 
-/* Ajouter liens Divi dans l'adminbar */
+/* Créer un menu avec les pages d'options de Divi dans l'adminbar */
 
 function dc_add_divi_items_in_adminbar($admin_bar){
     $admin_bar->add_menu( array(
@@ -15,7 +15,7 @@ function dc_add_divi_items_in_adminbar($admin_bar){
         'id'    => 'dc-divi-theme-options',
         'parent' => 'dc-divi-adminbar-links',
         'title' => 'Options du thème',
-        'href'   => esc_url( admin_url( 'theme-install.php' ) ),
+        'href'   => esc_url( admin_url( 'admin.php?page=et_divi_options' ) ),
         'meta'  => array(
             'title' => __('Options du thème'),
             'target' => '_blank',
@@ -50,7 +50,7 @@ function dc_add_divi_items_in_adminbar($admin_bar){
         'title' => 'Bibliothèque Divi',
         'href'   => esc_url( admin_url( 'edit.php?post_type=et_pb_layout' ) ),
         'meta'  => array(
-            'title' => __('Éditeur de rôle'),
+            'title' => __('Bibliothèque Divi'),
             'target' => '_blank',
             'class' => 'dc_divi_library'
         ),
